@@ -1,0 +1,69 @@
+* {
+  margin: 20px;
+}
+h3 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.upper {
+  color: rgba(217, 48, 18, 0.896);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+}
+nav > ul li {
+  list-style: none;
+}
+li > a {
+  text-decoration: none;
+  color: grey;
+}
+.active {
+  color: tomato;
+}
+.hero {
+  background-image: url("Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.overlay h1 {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.overlay p {
+  font-size: 20px;
+}
+.search-bar {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  backdrop-filter: blur(1.2px);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.search-bar select,
+input {
+  border-radius: 5px;
+  width: 100%;
+}
+.primary-btn {
+  padding: 15px 30px;
+  background-color: tomato;
+  color: white;
+}
+.popular-tour {
+  display: flex;
+  justify-content: center;
+}
